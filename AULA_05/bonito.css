@@ -1,0 +1,49 @@
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container-principal {
+    display: flex;     
+    width: 100%;         
+    height: 100vh;      
+}
+
+
+.lado-esquerdo, .lado-direito {
+    flex: 1;             
+    padding: 20px;       
+}
+
+
+.lado-esquerdo {
+    background-color: #f4f4f4; 
+}
+
+.lado-direito {
+    background-color: #e0e0e0; 
+}
+
+.lado-esquerdo {
+    /* 1. Indica o caminho da imagem (pode ser uma foto da internet ou uma pasta local) */
+    background-image:url("./pug.png");    
+    /* 2. Faz a imagem cobrir todo o espaço do lado esquerdo sem distorcer */
+    background-size: 70%;
+    
+    /* 3. Centraliza a imagem para que o meio dela sempre apareça */
+    background-position: center;
+    
+    /* 4. Evita que a imagem fique se repetindo como um mosaico */
+    background-repeat: no-repeat;
+}
+
+.jaguara{
+text-align: center;
+
+}
+
+.tenis{
+    text-align: center;
+
+}
