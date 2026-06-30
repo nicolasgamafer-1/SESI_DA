@@ -1,11 +1,25 @@
  <!DOCTYPE html>
 <html lang="pt-BR">
+
+<audio id="musica" autoplay loop muted>
+    <source src="Aaron_Smith_-_Dancing_Krono_Remix_(mp3.pm).mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  window.addEventListener("click", () => {
+    const audio = document.getElementById("musica");
+    audio.muted = false;
+    audio.play();
+  });
+</script>
+
+
 <head>
     <meta charset="UTF-8">
     <title>Minha Tela Dividida</title>
     <link rel="stylesheet" href="bonito.css">
 </head>
-<body
+<body>
 
     <div class="container-principal">
 
@@ -17,9 +31,33 @@
         <div class="lado-direito">
             <h1 class="tenis">Encontre tudo o que você precisa para seu animal de estimação</h1>
             <!-- <p>Aqui pode ir o conteúdo principal, formulários, etc.</p> -->
-        </div>
 
+            <div class="lado-direito">
+
+    <div class="login">
+        <button class="botao-login">
+            <img src="google.png" alt="Google">
+            <span>Entrar com Google</span>
+        </button>
+
+        <button class="botao-login">
+            <img src="apple.png" alt="Apple">
+            <span>Entrar com Apple</span>
+        </button>
+
+        <button class="botao-login">
+            <img src="email.png" alt="E-mail">
+            <span>Entrar com E-mail</span>
+        </button>
+
+        <p class="texto-ajuda">
+            Você quer tentar de outra maneira?
+            <a href="#">Saber mais</a>
+        </p>
     </div>
+</div>
+
+    
 
 </body>
 </html>
