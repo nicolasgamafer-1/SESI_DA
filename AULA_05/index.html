@@ -1,10 +1,5 @@
  <!DOCTYPE html>
 <html lang="pt-BR">
-
-<audio id="musica" autoplay loop muted>
-    <source src="Aaron_Smith_-_Dancing_Krono_Remix_(mp3.pm).mp3" type="audio/mpeg">
-</audio>
-
 <script>
   window.addEventListener("click", () => {
     const audio = document.getElementById("musica");
@@ -25,12 +20,12 @@
 
         <div class="lado-esquerdo">
             <h1 class="jaguara">Bem-Vindo</h1>
-            <!--<p>Você pode colocar menus, textos ou imagens aqui.</p>-->
+            
         </div>
 
         <div class="lado-direito">
             <h1 class="tenis">Encontre tudo o que você precisa para seu animal de estimação</h1>
-            <!-- <p>Aqui pode ir o conteúdo principal, formulários, etc.</p> -->
+            
 
             <div class="lado-direito">
 
@@ -60,4 +55,15 @@
     
 
 </body>
+<script>
+  document.addEventListener('keydown', function(event) {
+    // Verifica se Ctrl, Shift, Alt e a tecla 'G' (ou 'g') foram pressionados juntos
+    if (event.ctrlKey && event.shiftKey && event.altKey && (event.key === 'g' || event.key === 'G')) {
+      event.preventDefault(); // Evita algum comportamento padrão do navegador
+      
+      // Mude 'outra-pagina.html' para o link ou arquivo que você quer abrir
+      window.location.href = 'outra-pagina.html'; 
+    }
+  });
+</script>
 </html>
