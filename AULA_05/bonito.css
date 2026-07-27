@@ -26,15 +26,13 @@ body, html {
 }
 
 .lado-esquerdo {
-    /* 1. Indica o caminho da imagem (pode ser uma foto da internet ou uma pasta local) */
+   
     background-image:url("./pug.png");    
-    /* 2. Faz a imagem cobrir todo o espaço do lado esquerdo sem distorcer */
+   
     background-size: 70%;
     
-    /* 3. Centraliza a imagem para que o meio dela sempre apareça */
     background-position: center;
     
-    /* 4. Evita que a imagem fique se repetindo como um mosaico */
     background-repeat: no-repeat;
 }
 
