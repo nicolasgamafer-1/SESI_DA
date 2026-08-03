@@ -1,20 +1,102 @@
-body{
-	margin: 0px;
+body {
+    margin: 0px;
 }
 
-header{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	background-color: black;
-	height: 100px;
-	width: 100%;
-	color: white;
-	padding: 10px;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-#perfil{
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
+#perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header p {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    margin: 80px;
+}
+
+.pesquisa input {
+    width: 500px;
+    border-radius: 50px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.grupo-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    height: 284px;
+    width: 219px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 34px;
+    cursor: pointer;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s, 0.2s;
+}
+
+.card:hover{
+    opacity: 0.7;
+}
+
+.card p{
+    color: white;
+    font-size: 40px;
+    padding-left: 25px;
+    padding-top: 175px;
+}
+
+.grupo-anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 430px;
+    margin-top: 50px;
+
+}
+
+
+.card-anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    border-radius: 70px;
+
+}
+
+.anuncio-le{
+    width: 50%;
+}
+
+.anuncio-ld{
+    width: 50%;
+    height: 80%;
+    background-image: url(gato_laranja.jpg);
+    background-size: cover;
+    background-position: center;
 }
