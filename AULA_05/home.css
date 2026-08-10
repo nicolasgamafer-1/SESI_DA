@@ -56,18 +56,18 @@ header p {
     transition-duration: 0.2s, 0.2s;
 }
 
-.card:hover{
+.card:hover {
     opacity: 0.7;
 }
 
-.card p{
+.card p {
     color: white;
     font-size: 40px;
     padding-left: 25px;
     padding-top: 175px;
 }
 
-.grupo-anuncio{
+.grupo-anuncio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,13 +89,13 @@ header p {
 
 }
 
-.anuncio-le{
+.anuncio-le {
     width: 50%;
     text-align: center;
     font-weight: bold;
 }
 
-.anuncio-le button{
+.anuncio-le button {
     font-size: 40px;
     background-color: black;
     color: white;
@@ -105,7 +105,7 @@ header p {
     cursor: pointer;
 }
 
-.anuncio-ld{
+.anuncio-ld {
     width: 50%;
     height: 80%;
     background-image: url(gato_laranja.jpg);
@@ -113,4 +113,48 @@ header p {
     background-position: center;
     border-radius: 70px;
     margin: 20px;
+}
+
+.grupo-dicas {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.dicas-le {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.dicas-le h1 {
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.dicas-le span {
+    font-weight: bold;
+}
+
+.dicas-le p {
+    font-size: 28px;
+    color: #5C5C5C;
+    margin-top: 50px;
+}
+
+.dicas-ld img {
+    width: 684px;
+    height: 800px;
+    border-radius: 20px;
+
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer h1{
+    font-size: 24px;
+    font-weight: bold;
 }
