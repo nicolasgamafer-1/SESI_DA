@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <input id="campo1" type="text" value="0">
+
+    <select id="operacao">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+
+    <input id="campo2" type="text" value="0">
+    
+    <button onclick="calcular()">calcular</button>
+
+    <h1 id="resultado">Resultado: 0</h1>
+
+</body>
+</html>
